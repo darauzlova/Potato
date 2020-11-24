@@ -1,0 +1,98 @@
+body{
+	
+	background-image: url(fon.jpg) ;
+	width: 100%;
+	height: 100%;
+}
+.box{
+width: 80%;
+margin-left: 10%;
+height: 100%;
+
+}
+.nasvanie{
+	text-align: center;
+	font-size: 40pt;
+	font-family: cursive;
+	background-color: white;
+}
+.bio{
+	font-family: cursive;
+	background-color: white;
+	font-size: 20pt;
+}
+#h1{
+	background-color: #E0FFFF;
+	text-align:  center;
+}
+#h2 
+{
+	background-color: #E0FFFF;
+	text-align:  center;
+	color:#E0FFFF;
+}
+a{
+	text-decoration: none;
+	color: #87CEEB;
+}
+h3{
+	font-size: 40pt;
+	font-family: cursive;
+}
+.fact{
+	font-family: cursive;
+	background-color: white;
+	font-size: 20pt;
+	margin-top: 10%;
+}
+.fact>img{
+	display: inline-block;
+}
+.foto{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+}
+.foto>img{
+	-webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+.foto>img:hover{
+
+          -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+form{
+ max-width: 350px;
+  margin: 50px auto 0;
+  padding: 20px;
+  background: #00BFFF;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+input{
+color: white;	
+ display: inline-block;
+  padding: 5px 10px;
+  background: #0000CD;
+}
+#clock{
+	width: auto;
+	height: auto;
+	text-align: center;
+	background-color: white;
+    color: #0071D0;
+ font-weight: bold;
+  font-size: 10em;
+  margin-top: 10%;
+  border-style: double;
+  border-width: 5pt;
+
+}
